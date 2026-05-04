@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Arlin Reyes — Designer & Developer",
-  description: "Portfolio of Arlin Reyes, a designer and developer crafting beautiful digital experiences.",
+  title: "Arlin Reyes — UX/UI Designer",
+  description: "Portfolio of Arlin Reyes, a UX/UI designer crafting human-centered digital products with research-led precision and pixel-perfect craft.",
 };
 
 export default function RootLayout({
