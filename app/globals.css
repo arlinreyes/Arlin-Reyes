@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
+  --background: #060606;
   --foreground: #ffffff;
 }
 
@@ -32,7 +32,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #060606;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -41,5 +41,18 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(139, 92, 246, 0.6);
+  background: rgba(139, 92, 246, 0.65);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.333%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 35s linear infinite;
 }
